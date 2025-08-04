@@ -24,18 +24,18 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fadeIn">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                iOS Developer
+              Hi, I'm <span className="bg-gradient-primary bg-clip-text text-transparent">
+                Rahul Prakash P
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-              Swift • SwiftUI • UIKit • 2+ Years Experience
+              iOS Developer • Swift • UIKit • 2+ Years Experience
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Crafting exceptional iOS experiences with 5+ published App Store apps. 
-              Specializing in native iOS development with Swift and modern frameworks.
+              Building robust iOS applications with Apple Pay integration, Core Data, and REST APIs. 
+              Experienced with App Store publishing and payment integrations.
             </p>
           </div>
 

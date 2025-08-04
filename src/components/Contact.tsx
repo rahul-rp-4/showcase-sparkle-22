@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'hello@yourname.com',
-      href: 'mailto:hello@yourname.com'
+      details: 'rahulprakashp004@gmail.com',
+      href: 'mailto:rahulprakashp004@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      details: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      details: '+91 7306199289',
+      href: 'tel:+917306199289'
     },
     {
       icon: MapPin,
       title: 'Location',
-      details: 'New York, NY',
+      details: 'Malappuram, Kerala, India',
       href: '#'
     }
   ];

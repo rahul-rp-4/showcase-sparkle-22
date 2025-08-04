@@ -29,8 +29,8 @@ const About = () => {
               About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Passionate iOS developer with 2+ years of experience creating innovative mobile solutions. 
-              With 5+ apps successfully published on the App Store, I bring ideas to life through code.
+              Based in Malappuram, Kerala, India. Experienced with App Store publishing and payment integrations including Apple Pay. 
+              Previously worked on Android apps using Flutter, passionate about clean architecture, scalable code, and intuitive design.
             </p>
           </div>
 
@@ -38,14 +38,14 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">My iOS Journey</h3>
               <p className="text-muted-foreground mb-4">
-                Started my iOS development journey 2 years ago and have since published 5+ apps 
-                on the App Store. I specialize in Swift, SwiftUI, and UIKit, creating apps that 
-                users love and Apple approves.
+                Currently working as iOS Developer at Oges Infotech, Kochi, where I've independently 
+                developed and maintained 3-5 iOS applications from scratch and worked on 10+ apps 
+                across various domains including finance, e-commerce, and internal tools.
               </p>
               <p className="text-muted-foreground">
-                When I'm not coding, you can find me exploring new iOS frameworks, studying 
-                Apple's latest announcements, or mentoring aspiring iOS developers. I believe 
-                in creating apps that make a meaningful impact on users' lives.
+                My experience spans from trainee positions at Vervone Solutions to intern roles 
+                at Brototope, where I also gained Flutter development skills. I specialize in 
+                integrating Apple Pay, Core Data, and handling complete App Store deployment cycles.
               </p>
             </div>
             

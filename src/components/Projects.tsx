@@ -6,28 +6,28 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Fitness Tracker Pro',
-      description: 'A comprehensive fitness tracking iOS app with HealthKit integration, workout plans, and progress analytics. Features custom UI animations and real-time data synchronization.',
-      technologies: ['SwiftUI', 'HealthKit', 'Core Data', 'Combine', 'CloudKit'],
+      title: 'Cross-Border Money Transfer Apps',
+      description: 'Developed two iOS apps for a foreign exchange business. One integrated with Apple Pay, another using custom payment gateway. Features secure API integrations, built intuitive UI/UX, and improved transaction flow performance.',
+      technologies: ['Swift', 'UIKit', 'Apple Pay', 'REST API', 'Core Data'],
       githubUrl: '#',
-      liveUrl: 'https://apps.apple.com/app/fitness-tracker-pro',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop'
+      liveUrl: '#',
+      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop'
     },
     {
-      title: 'Weather Forecast+',
-      description: 'Beautiful weather app with location-based forecasts, interactive maps, and weather widgets. Implements Core Location and custom UI components with smooth animations.',
-      technologies: ['Swift', 'UIKit', 'Core Location', 'MapKit', 'WidgetKit'],
+      title: 'Job Portal App with Apple Wallet',
+      description: 'A complex job-seeking app featuring advanced custom UI design and role-based flows, Apple Wallet integration to generate and store job fair or interview tickets, and deep API handling for listings, applications, and user profile management.',
+      technologies: ['Swift', 'UIKit', 'Apple Wallet', 'REST API', 'Core Data'],
       githubUrl: '#',
-      liveUrl: 'https://apps.apple.com/app/weather-forecast-plus',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop'
+      liveUrl: '#',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop'
     },
     {
-      title: 'Task Manager Elite',
-      description: 'Productivity app with task management, reminders, and team collaboration features. Built with SwiftUI and includes custom gestures and haptic feedback.',
-      technologies: ['SwiftUI', 'Core Data', 'UserNotifications', 'Combine', 'CloudKit'],
+      title: 'Radio Streaming App',
+      description: 'Built an audio streaming app where users can listen to live radio channels based on regions (under a single brand). Experience smooth media playback with notification controls and background support.',
+      technologies: ['Swift', 'UIKit', 'AVFoundation', 'REST API'],
       githubUrl: '#',
-      liveUrl: 'https://apps.apple.com/app/task-manager-elite',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop'
+      liveUrl: '#',
+      image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop'
     }
   ];
 

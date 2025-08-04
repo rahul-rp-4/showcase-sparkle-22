@@ -4,18 +4,18 @@ import { Badge } from '@/components/ui/badge';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'iOS Development',
-      skills: ['Swift', 'SwiftUI', 'UIKit', 'Xcode', 'Core Data', 'Combine'],
+      title: 'Languages & Frameworks',
+      skills: ['Swift', 'UIKit', 'Core Data', 'Flutter', 'JSON', 'MVC Architecture'],
       color: 'bg-blue-500/10 text-blue-400 border-blue-500/20'
     },
     {
-      title: 'Apple Frameworks',
-      skills: ['CloudKit', 'HealthKit', 'MapKit', 'AVFoundation', 'Core Animation', 'Core ML'],
+      title: 'Tools & Services',
+      skills: ['Xcode', 'Firebase', 'REST API', 'Apple Pay', 'Git', 'TestFlight'],
       color: 'bg-green-500/10 text-green-400 border-green-500/20'
     },
     {
-      title: 'Tools & Services',
-      skills: ['Git', 'Firebase', 'REST APIs', 'TestFlight', 'App Store Connect', 'Figma'],
+      title: 'Other Skills',
+      skills: ['App Store Submission', 'UI Design', 'BLoC Pattern', 'Hive Database', 'WordPress'],
       color: 'bg-purple-500/10 text-purple-400 border-purple-500/20'
     }
   ];
@@ -60,8 +60,8 @@ const Skills = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
             {[
               { number: '2+', label: 'Years Experience' },
-              { number: '5+', label: 'App Store Apps' },
-              { number: '10K+', label: 'App Downloads' },
+              { number: '10+', label: 'Apps Worked On' },
+              { number: '3-5', label: 'Apps Built from Scratch' },
               { number: '100%', label: 'Commitment' }
             ].map(({ number, label }) => (
               <div key={label} className="text-center">
