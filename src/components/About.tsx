@@ -5,18 +5,18 @@ const About = () => {
   const features = [
     {
       icon: Code,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable code with best practices and modern standards.'
+      title: 'Native iOS',
+      description: 'Building high-performance native iOS apps with Swift, SwiftUI, and UIKit following Apple\'s design guidelines.'
     },
     {
       icon: Palette,
-      title: 'Creative Design',
-      description: 'Bringing ideas to life with intuitive user interfaces and engaging experiences.'
+      title: 'App Store Ready',
+      description: 'Creating polished, user-friendly apps optimized for App Store approval and user satisfaction.'
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Working effectively with teams to deliver projects on time and exceed expectations.'
+      title: 'User-Centric',
+      description: 'Focusing on exceptional user experiences with intuitive interfaces and smooth performance.'
     }
   ];
 
@@ -29,24 +29,23 @@ const About = () => {
               About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              I'm a passionate developer with a love for creating digital solutions 
-              that solve real-world problems. With expertise in modern web technologies, 
-              I bring ideas to life through code.
+              Passionate iOS developer with 2+ years of experience creating innovative mobile solutions. 
+              With 5+ apps successfully published on the App Store, I bring ideas to life through code.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
+              <h3 className="text-2xl font-semibold mb-6">My iOS Journey</h3>
               <p className="text-muted-foreground mb-4">
-                Started my journey in web development 5 years ago, and since then I've been 
-                constantly learning and evolving. I specialize in React, Node.js, and modern 
-                web technologies.
+                Started my iOS development journey 2 years ago and have since published 5+ apps 
+                on the App Store. I specialize in Swift, SwiftUI, and UIKit, creating apps that 
+                users love and Apple approves.
               </p>
               <p className="text-muted-foreground">
-                When I'm not coding, you can find me exploring new technologies, contributing 
-                to open source projects, or mentoring aspiring developers. I believe in the 
-                power of technology to make the world a better place.
+                When I'm not coding, you can find me exploring new iOS frameworks, studying 
+                Apple's latest announcements, or mentoring aspiring iOS developers. I believe 
+                in creating apps that make a meaningful impact on users' lives.
               </p>
             </div>
             

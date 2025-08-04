@@ -4,18 +4,18 @@ import { Badge } from '@/components/ui/badge';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
-      skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js', 'JavaScript'],
+      title: 'iOS Development',
+      skills: ['Swift', 'SwiftUI', 'UIKit', 'Xcode', 'Core Data', 'Combine'],
       color: 'bg-blue-500/10 text-blue-400 border-blue-500/20'
     },
     {
-      title: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'PostgreSQL', 'MongoDB', 'REST APIs'],
+      title: 'Apple Frameworks',
+      skills: ['CloudKit', 'HealthKit', 'MapKit', 'AVFoundation', 'Core Animation', 'Core ML'],
       color: 'bg-green-500/10 text-green-400 border-green-500/20'
     },
     {
-      title: 'Tools & Others',
-      skills: ['Git', 'Docker', 'AWS', 'Figma', 'Jest', 'CI/CD'],
+      title: 'Tools & Services',
+      skills: ['Git', 'Firebase', 'REST APIs', 'TestFlight', 'App Store Connect', 'Figma'],
       color: 'bg-purple-500/10 text-purple-400 border-purple-500/20'
     }
   ];
@@ -29,8 +29,8 @@ const Skills = () => {
               Technical <span className="bg-gradient-primary bg-clip-text text-transparent">Skills</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A comprehensive toolkit of modern technologies and frameworks 
-              that I use to build exceptional digital experiences.
+              A comprehensive toolkit of iOS development technologies and frameworks 
+              that I use to build exceptional native mobile experiences.
             </p>
           </div>
 
@@ -59,9 +59,9 @@ const Skills = () => {
           {/* Experience Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
             {[
-              { number: '5+', label: 'Years Experience' },
-              { number: '50+', label: 'Projects Completed' },
-              { number: '20+', label: 'Happy Clients' },
+              { number: '2+', label: 'Years Experience' },
+              { number: '5+', label: 'App Store Apps' },
+              { number: '10K+', label: 'App Downloads' },
               { number: '100%', label: 'Commitment' }
             ].map(({ number, label }) => (
               <div key={label} className="text-center">

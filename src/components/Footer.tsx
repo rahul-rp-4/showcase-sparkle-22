@@ -8,10 +8,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-                Your Portfolio
+                iOS Developer Portfolio
               </div>
               <p className="text-muted-foreground">
-                Building the future, one line of code at a time.
+                Building exceptional iOS experiences, one app at a time.
               </p>
             </div>
             
@@ -35,7 +35,7 @@ const Footer = () => {
           
           <div className="mt-8 pt-8 border-t border-border text-center">
             <p className="text-muted-foreground flex items-center justify-center">
-              Made with <Heart className="w-4 h-4 mx-2 text-red-500" /> by Your Name
+              Made with <Heart className="w-4 h-4 mx-2 text-red-500" /> by iOS Developer
             </p>
           </div>
         </div>

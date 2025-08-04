@@ -35,8 +35,8 @@ const Contact = () => {
               Let's <span className="bg-gradient-primary bg-clip-text text-transparent">Connect</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Have a project in mind or just want to chat? I'd love to hear from you. 
-              Let's create something amazing together.
+              Have an iOS app idea or want to discuss your next mobile project? I'd love to hear from you. 
+              Let's create an amazing App Store experience together.
             </p>
           </div>
 
@@ -61,12 +61,12 @@ const Contact = () => {
               </div>
               
               <Card className="p-6 bg-gradient-secondary border-border">
-                <h4 className="font-semibold mb-2">Let's work together!</h4>
+                <h4 className="font-semibold mb-2">Ready to build your iOS app?</h4>
                 <p className="text-muted-foreground text-sm">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you're a startup looking to build your first product or an 
-                  established company wanting to improve your digital presence, 
-                  I'd love to help bring your vision to life.
+                  I'm passionate about creating exceptional iOS experiences that users love. 
+                  Whether you need a brand new app for the App Store or want to improve 
+                  an existing iOS application, I'd love to help bring your mobile vision to life 
+                  with clean Swift code and intuitive design.
                 </p>
               </Card>
             </div>
@@ -87,13 +87,13 @@ const Contact = () => {
                 
                 <div>
                   <label className="block text-sm font-medium mb-2">Subject</label>
-                  <Input placeholder="Project Discussion" className="bg-background/50" />
+                  <Input placeholder="iOS App Development" className="bg-background/50" />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium mb-2">Message</label>
                   <Textarea 
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me about your iOS app idea..."
                     className="bg-background/50 min-h-[120px]"
                   />
                 </div>

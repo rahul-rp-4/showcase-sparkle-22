@@ -6,28 +6,28 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
+      title: 'Fitness Tracker Pro',
+      description: 'A comprehensive fitness tracking iOS app with HealthKit integration, workout plans, and progress analytics. Features custom UI animations and real-time data synchronization.',
+      technologies: ['SwiftUI', 'HealthKit', 'Core Data', 'Combine', 'CloudKit'],
       githubUrl: '#',
-      liveUrl: '#',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop'
+      liveUrl: 'https://apps.apple.com/app/fitness-tracker-pro',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative project management tool with real-time updates, team chat, and progress tracking. Built with modern React and WebSocket technology.',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'Express', 'PostgreSQL'],
+      title: 'Weather Forecast+',
+      description: 'Beautiful weather app with location-based forecasts, interactive maps, and weather widgets. Implements Core Location and custom UI components with smooth animations.',
+      technologies: ['Swift', 'UIKit', 'Core Location', 'MapKit', 'WidgetKit'],
       githubUrl: '#',
-      liveUrl: '#',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics. Features responsive design and PWA capabilities.',
-      technologies: ['Vue.js', 'API Integration', 'PWA', 'Chart.js'],
-      githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://apps.apple.com/app/weather-forecast-plus',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop'
+    },
+    {
+      title: 'Task Manager Elite',
+      description: 'Productivity app with task management, reminders, and team collaboration features. Built with SwiftUI and includes custom gestures and haptic feedback.',
+      technologies: ['SwiftUI', 'Core Data', 'UserNotifications', 'Combine', 'CloudKit'],
+      githubUrl: '#',
+      liveUrl: 'https://apps.apple.com/app/task-manager-elite',
+      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop'
     }
   ];
 
@@ -40,8 +40,8 @@ const Projects = () => {
               Featured <span className="bg-gradient-primary bg-clip-text text-transparent">Projects</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Here are some of my recent projects that showcase my skills 
-              and passion for creating meaningful digital solutions.
+              Here are some of my published iOS apps that showcase my skills 
+              and passion for creating meaningful mobile experiences available on the App Store.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ const Projects = () => {
                       className="bg-gradient-primary hover:shadow-glow-primary"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
+                      App Store
                     </Button>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const Projects = () => {
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
             >
-              View All Projects
+              View All Apps on App Store
             </Button>
           </div>
         </div>
