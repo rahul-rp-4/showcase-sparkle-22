@@ -28,6 +28,14 @@ const Projects = () => {
       githubUrl: '#',
       liveUrl: '#',
       image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop'
+    },
+    {
+      title: 'Church Community App',
+      description: 'Developed a comprehensive church management app featuring event scheduling, sermon streaming, prayer requests, and community messaging. Integrated push notifications for announcements and built a user-friendly interface for congregation engagement.',
+      technologies: ['Swift', 'UIKit', 'Push Notifications', 'Core Data', 'AVPlayer'],
+      githubUrl: '#',
+      liveUrl: '#',
+      image: 'https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=600&h=400&fit=crop'
     }
   ];
 
@@ -79,37 +87,11 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex gap-4">
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Button>
-                    <Button 
-                      size="sm"
-                      className="bg-gradient-primary hover:shadow-glow-primary"
-                    >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      App Store
-                    </Button>
-                  </div>
                 </div>
               </Card>
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            >
-              View All Apps on App Store
-            </Button>
-          </div>
         </div>
       </div>
     </section>
